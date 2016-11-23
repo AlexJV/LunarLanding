@@ -1,0 +1,106 @@
+body {
+	width: 100%;
+	background-image: url(../img/Estrellas.jpg);
+	background-size: cover;
+	font-family: arial;
+	color:#364183;
+	font-size: 13px;
+	margin: 0;
+	padding:0;
+}
+#menuA {
+	position: absolute;
+	float: left;
+	top: 5px;
+	left: 5px;
+	border: 1px solid #CCC;
+	padding: .5em;
+	text-align: left;
+	text-shadow: 1px 1px 0px #0c749C;
+	text-transform:uppercase;
+	}
+#menuA UL {
+	list-style: none;
+	margin: 0;
+	padding 0;
+	background-color: #D0D0D0;
+}
+#menuA LI A {
+	display: block;
+	padding: 1px 50px 10px 10px
+}
+#centrar {
+	position: relative;
+	top: 130px;
+	text-align: center;
+}
+#naveimg {
+	width: 12%;
+}
+#menuB {
+	position: absolute;
+	display:block;
+	float: right;
+	top: 5px;
+	right: 5px;
+	border: 1px solid #CCC;
+	padding: .5em;
+	text-align: center;
+	text-shadow: 1px 1px 0px #0c749C;
+	text-transform:uppercase;
+}
+#menuB UL {
+	list-style: none;
+	margin: 0;
+	padding 0;
+	background-color: #D0D0D0;
+}
+#menuB LI A {
+	display: block;
+	padding: 1px 50px 10px 10px
+}
+#menuB LI A:hover {
+	color: #FFF;
+}
+.d {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.cabecera {
+	text-align: center;
+	text-shadow: 1px 1px 0px #0c749C;
+	text-transform:uppercase;
+}
+#columna1 {
+	margin: 10px;
+	position: absolute;
+	float: left; width: 45%;
+	left: 10px;
+	text-shadow: 1px 1px 0px #0c749C;
+}
+#fuente {
+	text-align: justify;
+}
+#columna2 {
+	margin: 10px;
+	position: relative;
+	float: right; width: 45%;
+	text-shadow: 1px 1px 0px #0c749C;
+}
+#refer {
+	text-align: left;
+}
+header {
+	color: red;
+	text-transform:uppercase;
+	text-align: center;
+	}
+a:link {
+	color: #364183;
+}
+#columna3 {
+	text-align: center;
+	text-shadow: 1px 1px 0px #0c749C;
+	padding: 10px;
+}
