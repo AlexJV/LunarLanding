@@ -9,7 +9,7 @@ En primer lugar se han creado tres archivos de texto plano, modificando sus exte
  * _creditos.html_. Utilizaré está página para elacionar las web y lugares de donde se han obtenido las imágenes y el apoyo para la tarea. 
  * _intrucciones.html_. Se realizará una breve descripción del juego y sus controles.
 
-Descripción de los elementos contenidas en el _html_ de la página de inicio:
+Descripción de los elementos contenidos en el _html_ de la página de inicio:
  * _!DOCTYPE HTML_: Definición del tipo de documento.
  * _html_: Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento.
  * _head_: Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo.
@@ -22,4 +22,9 @@ Descripción de los elementos contenidas en el _html_ de la página de inicio:
  * _div_: utilizada como un contenedor genérico, sin significado especial pero que ayudará a "nombrar" determinados elementos.
  * Atributos _id_ y _class_: Para asignar nombres a un elemento único (_id_) del _html_ o  para asignar un nombre de clase o conjunto de nombres de clases a un elemento (_class_).
  * _img_: La utilizaremos para insertar una imagen con la ayuda de los atributos _src_, donde indicaremos la ruta y _alt_ donde describiremos la imagen para que se muestre en el caso de que ésta no se muestre.
+
+Otros elementos contenidos en las páginas _creditos_ o _instrucciones_:
+ * _h1_ o _h3_: Son etiquetas de encabezados de diferentes tamaños.
+ * _article_: 
+ * _header_:
  
