@@ -1,7 +1,7 @@
 # LMSGI-02. Proyecto Lunar Landing (HTML y CSS)
 #### Descripción de la práctica.
 Para realizar el proyexto Lunar Landing se debe desarrollar la primera parte de una aplicación web según el siguiente _StoryBoard_:  
-![imagen HTML](storyboard.jpg)
+![imagen HTML](storyboard.jpg)  
 El objetivo es crear una aplicación web similar (diversas páginas web: _.html, css_ y imágenes), documentando todo el proceso en el presente _README.md_.
 #### Desarrollo de la práctica:
 En primer lugar se han creado tres archivos de texto plano, modificando sus extensiones para que sean las tres páginas que serán enlazadas y servirán para la práctica. Las tres páginas son:
