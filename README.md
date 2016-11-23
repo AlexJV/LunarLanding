@@ -22,3 +22,4 @@ Descripción de los elementos contenidas en el _html_ de la página de inicio:
  * _div_: utilizada como un contenedor genérico, sin significado especial pero que ayudará a "nombrar" determinados elementos.
  * Atributos _id_ y _class_: Para asignar nombres a un elemento único (_id_) del _html_ o  para asignar un nombre de clase o conjunto de nombres de clases a un elemento (_class_).
  * _img_: La utilizaremos para insertar una imagen con la ayuda de los atributos _src_, donde indicaremos la ruta y _alt_ donde describiremos la imagen para que se muestre en el caso de que ésta no se muestre.
+ 
