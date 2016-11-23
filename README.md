@@ -42,7 +42,7 @@ La página _créditos.html_ tiene una estructura similar a la primera, ya que se
   * Imagen de la nave. Mediante el identificador (_id_) descrito en el _html_ se aplica una disposición central respecto a la pantalla.
   * Respecto al paisaje lunar, que fue identificado con una etiqueta _class_ en el _html_, se le aplica una posición absoluta, que se extienda al 100% de la pantalla y siempre en la parte baja de la misma.
   * En la página de créditos, se aplica similar configuración a los dos menús creados anteriormente (a los que en esta ocasión hemos llamado columnas), si bien éstos últimos se extienden por el 40% de la pantalla respectivamente (_width 40%_).
-  * Se ha creado una segunda hoja de estilos, llamada _estilo_m.css_, en la que hemos adaptado el tamaño de las fuentes del texto y las configuraciones de los menús y columnas para que se visualicen de forma correcta en pantallas de menos de 721px.
+  * Se ha creado una segunda hoja de estilos, llamada _estilo_m.css_, en la que hemos adaptado el tamaño de las fuentes del texto y las configuraciones y tamaños de los menús, nave y columnas para que se visualicen de forma correcta en pantallas de menos de 721px.
   
 
  
