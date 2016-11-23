@@ -25,6 +25,6 @@ Descripción de los elementos contenidos en el _html_ de la página de inicio:
 
 Otros elementos contenidos en las páginas _creditos_ o _instrucciones_:
  * _h1_ o _h3_: Son etiquetas de encabezados de diferentes tamaños.
- * _article_: 
- * _header_:
+ * _article_: Utilizada como separador de bloques para realizar divisiones con un nombre para cada una de ellas.
+ * _header_: Utilizada para nombrar las cabeceras de algunas de las divisiones antes mencionadas.
  
