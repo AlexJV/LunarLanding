@@ -16,4 +16,9 @@ Descripción de los elementos contenidas en el _html_ de la página de inicio:
  * _link_: Se ha utilizado para enlazar las hojas de estilos CSS externas con el documento HTML actual. En este caso existen dos hojas diferentes en función del tamaño de pantalla del dispositivo. Si tiene 721px de ancho o más, gracias al atributo _media_ aplicará el contenido de la hoja _estilo.css_(Primer _link_), en caso de tener menos de 721px de ancho aplicaría la hoja _estilo m.css_. Con el atributo _href_ le indicamos la ruta hasta la hoja de estilos referenciada.
  * _title_: Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página. Solamente puede contener texto y cualquier otra etiqueta contenida no será interpretada.
  * _meta_: La usamos para relacionar aquellos metadatos que no pueden ser definidos usando otro elemento _html_. Utilizaremos el atributo _name="description" content=".."_ para describir brevemente el contenido de la página y, pese a que el texto no será visible en el navegador, lo utilizan los buscadores como resumen en sus páginas de resultados.
- 
+ * _body_: Para incluir en él todo el contenido principal del domcumento _html_.
+ * _nav_: utilizada para contener los enlaces que favorezcan la navegación web y nos dirijan a zonas importantes.
+ * _ul_ y _li_: Etiquetas que utilizaremos para crear una lista desordenada que contendrá los enlaces.
+ * _div_: utilizada como un contenedor genérico, sin significado especial pero que ayudará a "nombrar" determinados elementos.
+ * Atributos _id_ y _class_: Para asignar nombres a un elemento único (_id_) del _html_ o  para asignar un nombre de clase o conjunto de nombres de clases a un elemento (_class_).
+ * _img_: La utilizaremos para insertar una imagen con la ayuda de los atributos _src_, donde indicaremos la ruta y _alt_ donde describiremos la imagen para que se muestre en el caso de que ésta no se muestre.
