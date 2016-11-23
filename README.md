@@ -32,13 +32,16 @@ Utilizando las etiquetas arriba descritas se ha estructurado la página _inicio.
 Así mismo se han introducido dos imágenes en el _html_, una para la nave y otra para el paisaje lunar que servirá de superficie de aterrizaje.
 La página _créditos.html_ tiene una estructura similar a la primera, ya que se ha optado por ordenar las fuentes de donde se han obtenido las imágenes utilizadas en la primera y en la segunda lista las referencias.
 
- ### _CSS_. Argumentaciones técnicas y/o estéticas de las páginas creadas.
+#### _CSS_. Argumentaciones técnicas y/o estéticas de las páginas creadas.
  
  Para la aplicación del estilo se ha utilizado la hoja _estilo.css_, referenciada en la etiqueta _link_ del _html_.
  Sin entrar en detalle por cada uno de los elemento a los que se le ha aplicado el estilo se describirán las generalidades técnicas y/o estéticas de cada uno de los elementos:
   * Diseño general de la página: Aplicado en la etiqueta _body_. Incluyendo fuente, tamaño y márgenes. Así mismo se aplica una imagen como fondo llamada _Estrellas.jpg_.
-  * Menú izquierdo,identificado como _menuA_, se le aplica una posición absoluta respecto a los elementos generales y un posicionamiento izquierdo en la pantalla con la etiqueta _float_.
-  * 
-  * Imagen de la nave.
+  * Menú izquierdo,identificado como "_menuA_", se le aplica una posición absoluta respecto a los elementos generales y un posicionamiento izquierdo en la pantalla con la etiqueta _float_.
+  * Menú derecho, identificado como "_menuB_", se le aplica también una posición absoluta, pero en esta ocasión un posicionamiento derecho en la pantalla.
+  * Imagen de la nave. Mediante el identificador (_id_) descrito en el _html_ se aplica una disposición central respecto a la pantalla.
+  * Respecto al paisaje lunar, que fue identificado con una etiqueta _class_ en el _html_, se le aplica una posición absoluta, que se extienda al 100% de la pantalla y siempre en la parte baja de la misma.
+  * En la página de créditos, se aplica similar configuración a los dos menús creados anteriormente (a los que en esta ocasión hemos llamado columnas), si bien éstos últimos se extienden por el 40% de la pantalla respectivamente (_width 40%_)
+  
 
  
