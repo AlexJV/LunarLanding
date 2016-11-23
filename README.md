@@ -28,3 +28,17 @@ Otros elementos contenidos en las páginas _creditos_ o _instrucciones_:
  * _article_: Utilizada como separador de bloques para realizar divisiones con un nombre para cada una de ellas.
  * _header_: Utilizada para nombrar las cabeceras de algunas de las divisiones antes mencionadas.
  
+Utilizando las etiquetas arriba descritas se ha estructurado la página _inicio.html_con dos listas desordenadas, una para mostrar la información del juego, como la altura, fuel o velocidad y la otra con los enlaces para abrir otras páginas.
+Así mismo se han introducido dos imágenes en el _html_, una para la nave y otra para el paisaje lunar que servirá de superficie de aterrizaje.
+La página _créditos.html_ tiene una estructura similar a la primera, ya que se ha optado por ordenar las fuentes de donde se han obtenido las imágenes utilizadas en la primera y en la segunda lista las referencias.
+
+ ### _CSS_. Argumentaciones técnicas y/o estéticas de las páginas creadas.
+ 
+ Para la aplicación del estilo se ha utilizado la hoja _estilo.css_, referenciada en la etiqueta _link_ del _html_.
+ Sin entrar en detalle por cada uno de los elemento a los que se le ha aplicado el estilo se describirán las generalidades técnicas y/o estéticas de cada uno de los elementos:
+  * Diseño general de la página: Aplicado en la etiqueta _body_. Incluyendo fuente, tamaño y márgenes. Así mismo se aplica una imagen como fondo llamada _Estrellas.jpg_.
+  * Menú izquierdo,identificado como _menuA_, se le aplica una posición absoluta respecto a los elementos generales y un posicionamiento izquierdo en la pantalla con la etiqueta _float_.
+  * 
+  * Imagen de la nave.
+
+ 
