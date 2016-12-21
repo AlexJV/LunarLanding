@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lunar Landing</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Juego Lunar Landing usando HTML, CSS y Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+    <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+    <script src="js/js.js"></script>
+</head>
+
+<body>
+    <div id="nave">
+        <img id="naveimg" src="img/nave.png" alt="img nave">
+        <img id="fuegoimg" src="img/fuegoimg.gif" alt="propulsor">
+    </div>
+    <div class="a">
+
+        <ul id="cpanel">
+            <li id="controles"><a>ALTITUD: <span id="altura">100</span> mts</a>
+            </li>
+            <li id="controles"><a>FUEL: <span id="fuel">100</span> lts</a>
+            </li>
+            <li id="controles"><a>VELOCIDAD: <span id="velocidad">0</span> m/s</a>
+            </li>
+        </ul>
+        <div id="showm">Mostrar menu</div>
+        <button id="botonOn"></button>
+    </div>
+    <div class="b"><img id="titulo" src="img/titulo.png" alt="LUNAR LANDING">
+    </div>
+    <div class="c">
+
+        <ul id="menu">
+            <li><a href="inicio.html">Inicio</a>
+            </li>
+            <li><a target="_blank" href="creditos.html">Créditos</a>
+            </li>
+            <li><a target="_blank" href="instrucciones.html">Instrucciones</a>
+            </li>
+        </ul>
+        <br>
+        <div id="hidem">Ocultar menu</div>
+        <a href="#" onclick="reanudar();">
+            <div id="reanudar"></div>
+        </a>
+        <a href="#" onclick="pausar();">
+            <div id="pausa"></div>
+        </a>
+        <a href="#" onclick="reiniciarJuego();">
+            <div id="reinicia"></div>
+        </a>
+    </div>
+    <div id="e"></div>
+    <div class="d">
+        <img class="suelo" src="img/luna4.png" alt="paisaje lunar">
+        <img class="tras" src="img/lunaTras.png" alt="paisaje lunar">
+    </div>
+    <div id="gameOver">
+        <h2>Fin de Juego</h2>
+        <p>La velocidad de aterrizaje debe
+            <br>ser inferior a 7 m/s</p>
+        <button onclick="reiniciarJuego();">
+            <h3>Jugar otra vez</h3>
+        </button>
+        <br>
+        <br> Intentos: <b><span id="intentos">0</span></b>
+        <br>
+        <br>
+    </div>
+    <div id="victoria">
+        <h2>Lo has conseguido</h2>
+        <p>Un aterrizaje perfecto!!</p>
+        <button onclick="reiniciarJuego();">
+            <h3>Jugar otra vez</h3>
+        </button>
+        <br>
+        <br>
+    </div>
+    </div>
+</body>
+
+</html>
