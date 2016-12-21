@@ -1,4 +1,4 @@
-# LMSGI-02. Proyecto Lunar Landing (HTML y CSS)
+# LMSGI-02. Proyecto Lunar Landing (HTML, CSS y JavaScript)
 #### Descripción de la práctica.
 Para realizar el proyexto Lunar Landing se debe desarrollar la primera parte de una aplicación web según el siguiente _StoryBoard_:  
 ![imagen HTML](storyboard.jpg)  
@@ -44,5 +44,14 @@ La página _créditos.html_ tiene una estructura similar a la primera, ya que se
   * En la página de créditos, se aplica similar configuración a los dos menús creados anteriormente (a los que en esta ocasión hemos llamado columnas), si bien éstos últimos se extienden por el 40% de la pantalla respectivamente (_width 40%_).
   * Se ha creado una segunda hoja de estilos, llamada _estilo_m.css_, en la que hemos adaptado el tamaño de las fuentes del texto y las configuraciones y tamaños de los menús, nave y columnas para que se visualicen de forma correcta en pantallas de menos de 721px.
   
+#### Añadido JavaScript y adaptaciones del proyecto.
+
+Pasos seguidos en la adaptación:
+
+  * Se incorpora al proyecto el esqueleto conteniendo las instrucciones en JavaScript aportado por el tutor de la asignatura.
+  * Añadir el efecto de fuego a la turbina del motor.
+    * Nueva imagen para el fuego de la turbina en html e identificada con el div "fuegoimg".
+    * En css se escala correctamente y se oculta para que sólo aparezca cuando se active el motor.
+    * En js, en las funciones encender y apagar motor se referencia la imagen para que se muestre (block) cuando se requiere.
 
  
