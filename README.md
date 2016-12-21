@@ -53,5 +53,26 @@ Pasos seguidos en la adaptación:
     * Nueva imagen para el fuego de la turbina en html e identificada con el div "fuegoimg".
     * En css se escala correctamente y se oculta para que sólo aparezca cuando se active el motor.
     * En js, en las funciones encender y apagar motor se referencia la imagen para que se muestre (block) cuando se requiere.
-
+  * Adaptar el diseño a versiones móviles.
+    * Con la ayuda del inspector de Chrome se realizan los ajustes en css para el correcto visionado en cualquier dispositivo.
+  * Corregir altitud ya que aumenta en lugar de disminuir cuando se acerca al planeta.
+    * Definidas nuevas variables para modificar la altitud.
+       * Variable h: acumulará el cálculo de la altitud.
+       * Variable alt: acumulará y mostrará el resultado del cálculo en la función  moverNave
+    * Definida altitud de inicio en 60.22 para que sea 0 cuando se pose con el suelo lunar.
+  * Añadir función de finalización del juego.
+    * Se crea la nueva función (finjuego), definiendo como errónea toda velocidad de impacto superior a 7.
+    *  Se define el gif que se mostrará sustituyendo a la nave si el vehículo impacta (naveKaput.gif).
+    * Se crea en html (oculta en css) una pantalla de información de fin de juego (gameOver), vinculándola también en la función para que se muestre al finalizar.
+    * Se añade un contador de intentos.
+    * Se crea en html (oculta en css) una pantalla de información en caso de conseguir aterrizar el módulo (victoria). Se vincula a la función con un bulce para mostrarla en caso de que el resto de condiciones no se cumplan.
+    * En ambas pantallas de información se añade un botón que permite reiniciar el juego.
+  * Añadir función de reinicio.
+    * Se crea la nueva función (reinicio) para que vuelva a empezar el juego tras finalizar (victoria o gameOver).
+  * Modificar pantallas de instrucciones y créditos para que varíen en versiones móviles.
+    * Adaptado css.
+  * Actualizar Github con la nueva versión de Lunar Landing.
+  * Crear nueva Branch para minify.
+    * Modificados css y js adaptandolos a minify.
+    * Actualizar Branch minify con el nuevo código.
  
