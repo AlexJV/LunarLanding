@@ -8,7 +8,7 @@ El objetivo es crear una aplicación web similar (diversas páginas web: _.html,
 #### Desarrollo de la práctica:
 En primer lugar se han creado tres archivos de texto plano, modificando sus extensiones a html para que sean las tres páginas que serán enlazadas y servirán para la práctica. Las tres páginas son:
  * _inicio_html_. Que servirá como página principal y contendrá los elementos del _Lunar Landing_.
- * _creditos.html_. En está página se relacionarán las webs y lugares de donde se han obtenido las imágenes y el apoyo para la tarea. 
+ * _creditos.html_. En ésta página se relacionarán las webs y lugares de donde se han obtenido las imágenes y el apoyo para la tarea. 
  * _intrucciones.html_. Se realizará una breve descripción del juego y sus controles.
 
 #### _CSS_. Argumentaciones técnicas y/o estéticas de las páginas creadas.
@@ -31,7 +31,7 @@ Pasos seguidos en la adaptación:
     * En css se escala correctamente y se oculta para que sólo aparezca cuando se active el motor.
     * En js, en las funciones encender y apagar motor se referencia la imagen para que se muestre cuando se requiere (Al pulsar una tecla o clicando sobre la pantalla).
   * Añadir botones para dispositivo móvil.
-    * Botones de encendido de motor, pausa y reinicio. Éstos botones se deberán ocultar en caso de utilizarse un dispositivo de pantalla pequeña, puediendo, no obstante visualizarse a demanda del jugador. 
+    * Botones de encendido de motor, pausa y reinicio. Éstos botones se deberán ocultar en caso de utilizarse un dispositivo de pantalla pequeña, pudiendo, no obstante visualizarse a demanda del jugador. 
   * Adaptar el diseño a versiones móviles.
     * Con la ayuda del inspector de Chrome se realizan los ajustes en el css para móvil y dar un correcto visionado en cualquier dispositivo.
   * Corregir altitud ya que aumenta en lugar de disminuir cuando se acerca al planeta.
@@ -43,7 +43,7 @@ Pasos seguidos en la adaptación:
     * Se define el gif que se mostrará sustituyendo a la nave si el vehículo impacta (naveKaput.gif).
     * Se crea en html (oculta en css) una pantalla de información de fin de juego (gameOver), vinculándola también en la función para que se muestre al finalizar.
     * Se añade un contador de intentos.
-    * Se crea en html (oculta en css) una pantalla de información en caso de conseguir aterrizar el módulo (victoria). Se vincula a la función con un bulce para mostrarla en caso de que el resto de condiciones no se cumplan.
+    * Se crea en html (oculta en css) una pantalla de información en caso de conseguir aterrizar el módulo (victoria). Se vincula a la función con un bucle para mostrarla en caso de que el resto de condiciones no se cumplan.
     * En ambas pantallas de información se añade un botón que permite reiniciar el juego.
   * Añadir función de reinicio.
     * Se crea la nueva función (reinicio) para que vuelva a empezar el juego tras finalizar (victoria o gameOver).
@@ -51,7 +51,7 @@ Pasos seguidos en la adaptación:
     * Adaptado css.
   * Actualizar Github con la nueva versión de Lunar Landing.
   * Crear nueva Branch para minify.
-    * Modificados css y js adaptandolos a minify.
+    * Modificados css y js adaptándolos a minify.
     * Actualizar Branch minify con el nuevo código.
     * Enlace para previsualización del proyecto Minify: https://rawgit.com/SebasMTX/LunarLanding/Minify/inicio.html
  
