@@ -18,23 +18,30 @@ En primer lugar se han creado tres archivos de texto plano, modificando sus exte
   
 #### Añadido JavaScript y adaptaciones del proyecto.
 
+Mediante el uso de JavaScript se deberá lograr que la nave descienda hacia la superficie lunar y, activando los motores, controlar su descenso para que en el momento del aterrizaje no lo haga superando una velocidad determinada.
+
 Pasos seguidos en la adaptación:
 
   * Se incorpora al proyecto el esqueleto conteniendo las instrucciones en JavaScript aportado por el tutor de la asignatura.
+  * Incluir en el proyecto nuevos elementos gráficos.
+    * Imagen de un planeta tierra.
+    * imagen de un sol.
+    * Nueva imagen de montañas lunares tras el suelo lunar. (Difuminadas para dar sensación de profundidad)
   * Añadir el efecto de fuego a la turbina del motor.
     * Nueva imagen para el fuego de la turbina en html e identificada con el div "fuegoimg".
     * En css se escala correctamente y se oculta para que sólo aparezca cuando se active el motor.
     * En js, en las funciones encender y apagar motor se referencia la imagen para que se muestre (block) cuando se requiere.
+  * Añadir botones para dispositivo móvil.
+    * Botones de encendido de motor, pausa y reinicio. Éstos botones se deberán ocultar en caso de utilizarse un dispositivo de pantalla pequeña, puediendo, no obstante visualizarse a demanda del jugador. 
   * Adaptar el diseño a versiones móviles.
-    * Con la ayuda del inspector de Chrome se realizan los ajustes en css para el correcto visionado en cualquier dispositivo.
+    * Con la ayuda del inspector de Chrome se realizan los ajustes en el css para móvil y dar un correcto visionado en cualquier dispositivo.
   * Corregir altitud ya que aumenta en lugar de disminuir cuando se acerca al planeta.
     * Definidas nuevas variables para modificar la altitud.
-       * Variable h: acumulará el cálculo de la altitud.
+       * Variable y2: acumulará el cálculo de la altitud.
        * Variable alt: acumulará y mostrará el resultado del cálculo en la función  moverNave
-    * Definida altitud de inicio en 60.22 para que sea 0 cuando se pose con el suelo lunar.
   * Añadir función de finalización del juego.
     * Se crea la nueva función (finjuego), definiendo como errónea toda velocidad de impacto superior a 7.
-    *  Se define el gif que se mostrará sustituyendo a la nave si el vehículo impacta (naveKaput.gif).
+    * Se define el gif que se mostrará sustituyendo a la nave si el vehículo impacta (naveKaput.gif).
     * Se crea en html (oculta en css) una pantalla de información de fin de juego (gameOver), vinculándola también en la función para que se muestre al finalizar.
     * Se añade un contador de intentos.
     * Se crea en html (oculta en css) una pantalla de información en caso de conseguir aterrizar el módulo (victoria). Se vincula a la función con un bulce para mostrarla en caso de que el resto de condiciones no se cumplan.
