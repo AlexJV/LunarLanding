@@ -27,9 +27,9 @@ Pasos seguidos en la adaptación:
     * imagen de un sol.
     * Nueva imagen de montañas lunares tras el suelo lunar. (Difuminadas para dar sensación de profundidad)
   * Añadir el efecto de fuego a la turbina del motor.
-    * Nueva imagen para el fuego de la turbina en html e identificada con el div "fuegoimg".
+    * Nueva imagen para el fuego de la turbina en html.
     * En css se escala correctamente y se oculta para que sólo aparezca cuando se active el motor.
-    * En js, en las funciones encender y apagar motor se referencia la imagen para que se muestre (block) cuando se requiere.
+    * En js, en las funciones encender y apagar motor se referencia la imagen para que se muestre cuando se requiere (Al pulsar una tecla o clicando sobre la pantalla).
   * Añadir botones para dispositivo móvil.
     * Botones de encendido de motor, pausa y reinicio. Éstos botones se deberán ocultar en caso de utilizarse un dispositivo de pantalla pequeña, puediendo, no obstante visualizarse a demanda del jugador. 
   * Adaptar el diseño a versiones móviles.
