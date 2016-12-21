@@ -1,6 +1,5 @@
-# LMSGI-02. Proyecto Lunar Landing (HTML, CSS y JavaScript)
-#### Branch con código _minify_ en CSS y JavaScript.
-### Autor: Sebastián Marqués Pardo.
+# LMSGI-02. Proyecto Lunar Landing _minified_ (HTML, CSS y JavaScript).
+## Autor: Sebastián Marqués Pardo.
 ### Previsualización del proyecto: https://rawgit.com/SebasMTX/LunarLanding/Minify/inicio.html
 
 #### Descripción del proyecto.
