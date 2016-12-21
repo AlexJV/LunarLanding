@@ -1,7 +1,6 @@
 # LMSGI-02. Proyecto Lunar Landing (HTML, CSS y JavaScript)
 ## Autor: Sebastián Marqués Pardo.
 ### Previsualización del proyecto: https://rawgit.com/SebasMTX/LunarLanding/master/inicio.html
-### Previsualización del proyecto Minify: https://rawgit.com/SebasMTX/LunarLanding/Minify/inicio.html
 #### Descripción del proyecto.
 Para realizar el proyecto Lunar Landing se debe desarrollar una aplicación web según el siguiente _StoryBoard_:  
 ![imagen HTML](storyboard.jpg)  
@@ -54,4 +53,5 @@ Pasos seguidos en la adaptación:
   * Crear nueva Branch para minify.
     * Modificados css y js adaptandolos a minify.
     * Actualizar Branch minify con el nuevo código.
+    * Enlace para previsualización del proyecto Minify: https://rawgit.com/SebasMTX/LunarLanding/Minify/inicio.html
  
